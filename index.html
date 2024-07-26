@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/title.png" />
+    <title>Pondok Pesantren Tahfizhul Qur'an Azzahrotain</title>
+    <meta
+      content="Pondok Pesantren Tahfizhul Qur'an Azzahrotain, tempat yang nyaman untuk belajar dan menghafal Al-Qur'an."
+      name="description"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="../netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .visimisi .content {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .visimisi h3 {
+        text-align: center;
+      }
+      .visimisi p {
+        margin: 0 auto;
+        max-width: 600px;
+      }
+      .navbar-logo img {
+        height: 50px; /* Adjust the height as needed */
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo">
+        <img
+          src="img/logop.jpg"
+          alt="Pondok Pesantren Tahfizhul Qur'an Azzahrotain"
+        />
+      </a>
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#galeri">Galeri Foto</a>
+        <a href="#visimisi">Visi Misi</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <!--  
+        <a href="#" id="search"><i data-feather="search"></i></a> 
+        -->
+
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Pondok Pesantren Tahfizhul Qur'an <span>Azzahrotain</span></h1>
+        <p>Cinta Al-Qur'an</p>
+        <a class="cta1" href="#kontak">Kontak Kami</a>
+      </main>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/t-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Sejarah Berdirinya Pesantren</h3>
+          <p>
+            Pesantren Tahfizhul Qur'an Azzahrotain berdiri dengan diinisiasi
+            oleh pimpinan dan istri yang memang bergerak dalam pengajaran
+            Al-Quran sejak lama, karena itu beliau berdua berupaya untuk
+            meningkatkan kualitas para penghafal Quran sehingga tercetus lah
+            niat sekaligus realisasi untuk membangun suatu lembaga dan
+            alhamdulillah kemudian didapati lah sebidang tanah yang kemudian
+            dibangunlah pesantren.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container" id="galeri">
+      <div class="mySlides fade">
+        <img
+          src="img/place1.jpg"
+          style="width: 100%"
+          alt="Ponpes Tahfizhul Qur'an Azzahrotain"
+        />
+        <div class="overlay">Pondok Pesantren Tahfizhul Qur'an Azzahrotain</div>
+      </div>
+      <div class="mySlides fade">
+        <img
+          src="img/place2.jpg"
+          style="width: 100%"
+          alt="Ponpes Tahfizhul Qur'an Azzahrotain"
+        />
+        <div class="overlay">Pondok Pesantren Tahfizhul Qur'an Azzahrotain</div>
+      </div>
+      <div class="mySlides fade">
+        <img
+          src="img/place3.jpg"
+          style="width: 100%"
+          alt="Ponpes Tahfizhul Qur'an Azzahrotain"
+        />
+        <div class="overlay">Pondok Pesantren Tahfizhul Qur'an Azzahrotain</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Visi Misi -->
+    <section class="visimisi" id="visimisi">
+      <h2 style="text-align: center">
+        <span>Visi</span> dan <span>Misi</span>
+      </h2>
+      <div class="content">
+        <h3>Visi</h3>
+        <p>
+          Mewujudkan generasi Qurani yang unggul dalam pemahaman, pengamalan,
+          dan penghafalan Al-Quran.
+        </p>
+        <h3>Misi</h3>
+        <p>
+          Menyediakan pendidikan yang berkualitas dalam menghafal Al-Quran.
+          Menanamkan nilai-nilai Islami dalam kehidupan sehari-hari. Membangun
+          karakter yang kuat dan berbudi pekerti luhur.
+        </p>
+      </div>
+    </section>
+
+    <!-- Kontak section -->
+    <section class="kontak" id="kontak">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Pecinta Al-Qur'an bisa mencari lokasi kami Di Maps</p>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://maps.google.com/maps?width=1000&amp;height=700&amp;hl=en&amp;q=PonpesAzzahrotain&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
+        <form action="#">
+          <div class="input">
+            <i data-feather="user"></i>
+            <input
+              type="text"
+              placeholder="Ponpes Tahfizhul Qur’an Azzahrotain"
+            />
+          </div>
+          <div class="input">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Ponpestqazzahrotain@gmail.com" />
+          </div>
+          <div class="input">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="0823-7182-5796" />
+          </div>
+          <!-- <button type="submit" class="btn">Kirim Pesan</button> -->
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="https://www.facebook.com/upanromlah/"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
+      <div class="credit">
+        <p>@Pondok Pesantren Tahfizhul Qur'an <span>Azzahrotain</span></p>
+      </div>
+    </footer>
+
+    <!-- Feather icons script -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3YCK47TPFS"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-3YCK47TPFS");
+    </script>
+  </body>
+</html>
